@@ -1,0 +1,135 @@
+body {
+  font-family: 'Bebas Neue', sans-serif;
+  padding: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #26aae1;
+}
+li {
+  border-left: 2px solid rgb(253, 249, 249);
+}
+
+.container {
+  border: 5px solid #333;
+  width: 40%;
+  height: relative; 
+  float: left;
+  background: #26aae1;
+  grid-column: 1 / 2 / 3;
+  margin: 20px;
+  padding: 20px;
+  font-size: 10px;
+  margin-top: 60px;
+}
+
+label {
+  grid-column: 1 / 2 /3 /4;
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+input,
+button {
+  grid-column: 2 / 3;
+  width: relative;
+  height: 20px;
+  font-size: 10px;
+
+}
+
+form {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 20px;
+  display: grid;
+  background: #26aae1;
+  border-block-start-width: 15px;
+  grid-template-columns: 200px 1fr;
+  grid-gap: 20px;
+  padding: 5px; 
+  width: relative; 
+  background-size: relative;
+  grid-column: 1 / 2 / 3 / 4;
+  float: left;
+  margin: 0px;
+  width: 80%;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+input[type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+select{
+  width: 80%;
+  height: 90%;
+  margin:2px;
+  align-content: left;
+  background: rgba(0,0,0,0.3);
+  color:#fff;
+  text-shadow:0 1px 0 rgba(0,0,0,0.4);
+}
+
+#button {
+  background-color: rgb(83, 84, 83); 
+  border: 30px black;
+  margin-top: 10px;
+  color: white;
+  padding: 10px 20px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.polaroid {
+  padding: 10px;
+  float: right;
+  margin-left: 10px;
+  width: 450px;
+  position: relative;
+  margin-top: 40px;
+  object-fit: cover;
+}
+
+
+
+
